@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+int sayiniz;
+
+int main()
+{
+    printf("Sayinizi giriniz : \n");
+    scanf("%d", &sayiniz);
+
+     for ( int x=0 ; x< sayiniz; x++) {
+    if (x%3 == 0){
+       continue;
+     }
+    if (x>50) {
+        break;
+
+
+    }
+    printf("%d\n", x);
+    }
+
+    return 0;
+}
