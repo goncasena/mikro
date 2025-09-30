@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+char harfiniz;
+int main()
+{
+    printf("harfinizi girin:\n");
+    scanf("%c",&harfiniz);
+    if (harfiniz=='a')
+     printf("harfiniz sesli");
+    else if (harfiniz=='ö')
+    printf("harfiniz sesli");
+     else if (harfiniz=='e')
+    printf("harfiniz sesli");
+     else if (harfiniz=='ı')
+    printf("harfiniz sesli");
+     else if (harfiniz=='i')
+    printf("harfiniz sesli");
+     else if (harfiniz=='u')
+    printf("harfiniz sesli");
+     else if (harfiniz=='ü')
+    printf("harfiniz sesli");
+     else if (harfiniz=='o')
+    printf("harfiniz sesli");
+    else
+    printf("harfiniz sessiz");
+    return 0;
+}
