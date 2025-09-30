@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+float birinci_sayi;
+float ikinci_sayi;
+int main()
+{
+    printf("ilk sayinizi girin:\n");
+    scanf("%f",&birinci_sayi);
+    printf("ikinci sayinizi girin:\n");
+    scanf("%f",&ikinci_sayi);
+    printf("%.2f \n",birinci_sayi+ikinci_sayi);
+    printf("%.2f \n",birinci_sayi-ikinci_sayi);
+    printf("%.2f \n",birinci_sayi/ikinci_sayi);
+    printf("%.2f \n",birinci_sayi*ikinci_sayi);
+    return 0;
+}
