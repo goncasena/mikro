@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+float sayiniz;
+int main()
+{
+    printf("sayinizi girin:\n");
+    scanf("%f",&sayiniz);
+    if(sayiniz<0)
+    printf("negatif\n");
+    else if (sayiniz==0)
+    printf("sifir\n");
+    else
+    printf("pozitif\n");
+    return 0;
+}
