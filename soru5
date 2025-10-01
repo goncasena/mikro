@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+float a;
+float b;
+float c;
+float d;
+float ortalama;
+int main()
+{
+    for(int i=1 ; i<=5 ; i++){
+        printf("%d ogrenci \n",i);
+        printf("1. notunuzu giriniz: ");
+        scanf("%f",&a);
+
+
+        printf("2. notunuzu giriniz: ");
+        scanf("%f",&b);
+
+
+        printf("3. notunuzu giriniz: ");
+        scanf("%f",&c);
+
+
+        printf("4. notunuzu giriniz: ");
+        scanf("%f",&d);
+        if(a >100 || b>100 || c >100|| d >100 ){
+        printf("notlarinizden bazilari gecersiz \n");
+        i--;
+        continue;
+        }
+        ortalama=(a+b+c+d)/4;
+        printf("ortalamaniz: %f \n",ortalama);
+        if(ortalama<50){
+            printf("kaldiniz \n");
+        }
+        else{
+            printf("gectiniz \n");
+
+        }
+}
+}
