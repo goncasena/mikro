@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+char x;
+int y=1;
+int main()
+{
+    printf("Bir karakter giriniz: ");
+    scanf("%c",&x);
+    while(1){
+    for(int a=0;a<25;a++){
+            Sleep(25);
+        for(int b=0;b<a;b++){
+            printf(" ");
+        }
+        printf("%c \n",x);
+    }
+    for(int c=25;c>0;c--){
+            Sleep(25);
+        for(int d=0;d<c;d++){
+            printf(" ");
+        }
+    printf("%c \n",x);
+    }
+}
+}
